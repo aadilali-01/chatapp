@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="nav">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png" alt="">
+            <h3>WhatsApp</h3>
+            <div id="user">
+                <i class="ri-user-3-fill"></i>
+                <div id="username"></div>
+                <i class="ri-eye-fill"></i>
+                <div id="liveuser"> </div>
+            </div>    
+        </div>
+        <div id="live-users">
+            <!-- <div id="live-user">
+                <i class="ri-user-5-fill"></i>
+                <h5>Aadil</h5>
+            </div> -->
+        </div>
+        <div id="fixed">
+            <div id="name">
+                <input id="nameinp" placeholder="Enter your name" type="text">
+                <button id="sendname">Submit</button>
+            </div>
+        </div>
+        <div id="left"></div>
+        <div id="right">
+            <div id="user"></div>
+            <div class="container">
+            </div>
+            <div class="send">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <button class="btn">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/javascripts/script.js"></script>
+</body>
+</html>
